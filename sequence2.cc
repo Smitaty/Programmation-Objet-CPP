@@ -8,7 +8,7 @@ void sc_initialiservide(sequence &s){
 }
 
 void sc_ajouter(sequence &s,const couleur c){
-    if(s.taille == s.taillereserve){
+    if(s.taille == s.taillereserve){ // si la taille du tableau atteint la taille allouée on agrandi la taille et on créé un nouveau tableau
         s.taillereserve+=5;
         couleur * tmp(new couleur[s.taillereserve]);
         for(unsigned int i=0; i<s.taille; ++i){
@@ -22,9 +22,9 @@ void sc_ajouter(sequence &s,const couleur c){
 }
 
 void sc_copier(sequence &destination, sequence source){
-    if(destination.taillereserve!=source.taillereserve){
-        delete [] destination.couleurs;
-        if(source.taille==0)
+    if(destination.taillereserve!=source.taillereserve){ // si la taille de la séquence destination est différente de la 
+        delete [] destination.couleurs;                  // taille de la séquence source on supprime le tableau de la séquence
+        if(source.taille==0)                             // destination et on en créé un nouveau de la taille de la séquence source
             destination.couleurs=nullptr;
         else
             destination.couleurs = new couleur[source.taillereserve];
