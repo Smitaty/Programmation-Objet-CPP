@@ -1,3 +1,7 @@
+/*
+Dans ce fichier est déclaré le type couleur et la classe séquence avec ses attributs et méthodes
+*/
+
 #pragma once
 #include<iostream>
 
@@ -13,7 +17,7 @@ using indicesequence = std::size_t;
 struct sequence {
     couleur * couleurs;
     indicesequence taille;
-    indicesequence taillereserve;
+    indicesequence taillereserve; // permet de savoir la taille disponible dans le tableau
 };
 
 void sc_initialiservide(sequence &s);
