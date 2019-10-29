@@ -17,8 +17,8 @@ void sc_copier(sequence &s, sequence t){
     s.taille=t.taille;
 }
 
-couleur sc_acces(sequence s, int indicesequence){
-    return s.contenu.at(indicesequence);
+couleur sc_acces(sequence s, int ind){
+    return s.contenu.at(ind);
 }
 
 void sc_afficher(couleur c){
