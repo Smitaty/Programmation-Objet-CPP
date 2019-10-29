@@ -1,3 +1,9 @@
+/*
+Voici une autre version du même exercice, dans cette version au lieu de créer un tableau de taille constante
+on créé un tableau alloué dynamiquement grâce à un pointeur.
+Cela permet de ne pas allouer de la mémoire non utilisé.
+*/
+
 #include "sequence2.hh"
 #include <iostream>
 
