@@ -1,3 +1,7 @@
+/*
+Enfin une 3e version du même exercice mais cette fois-ci avec l'utilisation de std::vector
+*/
+
 #include "sequence3.hh"
 #include <iostream>
 
