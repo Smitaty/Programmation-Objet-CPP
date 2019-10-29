@@ -1,3 +1,5 @@
+// Déclaration de la classe séquence en utilisant les vector
+
 #pragma once
 #include<iostream>
 #include<vector>
@@ -13,9 +15,9 @@ enum class couleur {
 
 class sequence {
 public:
-    sequence()=default;
-    sequence(sequence const & s)=default;
-    ~sequence()=default;
+    sequence()=default; // constructeur par défaut
+    sequence(sequence const & s)=default; // constructeur par recopie
+    ~sequence()=default; // destructeur
     indicesequence _taille;
 
     indicesequence taille(){
