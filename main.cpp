@@ -1,3 +1,10 @@
+/*
+Cet exercice a pour but :
+-de créer un type couleur prenant comme valeur 4 couleurs.
+-de créer une classe séquence composée d'un tableau de couleurs et de créer des méthodes manipulant le tableau de couleur.
+-d'apprendre à créer des classes et manipuler des types non primitifs tel que le type couleur créé dans cet exercice.
+*/
+
 #include "sequence.hh"
 #include <iostream>
 
