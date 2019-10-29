@@ -1,5 +1,5 @@
 /*
-Dans ce fichier est déclaré le type couleur et la classe séquence 
+Dans ce fichier est déclaré le type couleur et la classe séquence avec ses attributs et méthodes
 */
 
 #pragma once
