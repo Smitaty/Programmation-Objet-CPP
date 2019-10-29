@@ -1,3 +1,5 @@
+// Définition des méthodes du fichier sequence3.hh
+
 #include "sequence3.hh"
 #include<iostream>
 
