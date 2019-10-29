@@ -10,3 +10,5 @@ Dans la branche TP1_1 vous trouverez trois versions pour répondre aux questions
 Tout cela dans le but d'apprendre :
 La manipulation de classe, de constructeur, de nouvelle bibliothèque telle que les vectors
 De nous initier aux bases de la programmation objet en C++
+
+Prochainement la publication d'un exercice appellé le jeu de la vie...
